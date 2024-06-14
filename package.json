@@ -27,21 +27,21 @@
     "typings"
   ],
   "devDependencies": {
-    "@storybook/addon-actions": "^8.1.6",
-    "@storybook/addon-essentials": "^8.1.6",
-    "@storybook/addon-links": "^8.1.6",
-    "@storybook/vue3": "^8.1.6",
-    "@storybook/vue3-vite": "^8.1.6",
+    "@storybook/addon-actions": "^8.1.9",
+    "@storybook/addon-essentials": "^8.1.9",
+    "@storybook/addon-links": "^8.1.9",
+    "@storybook/vue3": "^8.1.9",
+    "@storybook/vue3-vite": "^8.1.9",
     "@vitejs/plugin-vue": "^5.0.5",
-    "prettier": "^3.3.1",
-    "sass": "^1.77.4",
-    "storybook": "^8.1.6",
+    "prettier": "^3.3.2",
+    "sass": "^1.77.5",
+    "storybook": "^8.1.9",
     "typescript": "^5.4.5",
-    "vite": "^5.2.13",
+    "vite": "^5.3.1",
     "vite-plugin-css-injected-by-js": "^3.5.1"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.4.29"
   },
   "bugs": {
     "url": "https://github.com/s-sasaki-0529/vue-slider-component/issues"
