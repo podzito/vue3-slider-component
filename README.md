@@ -13,8 +13,8 @@ Please note that specifications may differ from the original.
 ## 🎯 install
 
 ```bash
-$ yarn add vue-3-slider-component
-# npm install vue-3-slider-component --save
+$ yarn add vue3-slider-component
+# npm install vue3-slider-component --save
 ```
 
 ## ✨ Features
@@ -25,14 +25,14 @@ $ yarn add vue-3-slider-component
 
 ## 📚 Documentation
 
-[Storybook](https://vue-3-slider-component.netlify.app/?path=/docs/vue-3-slider-component--vue-3-slider-component)
+[Storybook](https://vue3-slider-component.netlify.app/?path=/docs/vue3-slider-component--vue3-slider-component)
 
 ## 🚀 Usage
 
 ```vue
 <script setup lang="ts">
 import { ref } from "vue";
-import VueSlider from "vue-3-slider-component";
+import VueSlider from "vue3-slider-component";
 
 const value = ref(0);
 </script>
@@ -53,7 +53,7 @@ Also available in the Options API
 </template>
 
 <script>
-import VueSlider from 'vue-3-slider-component'
+import VueSlider from 'vue3-slider-component'
 
 export default {
   components: {

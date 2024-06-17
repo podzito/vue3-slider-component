@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import VueSlider from '../../lib'
 
 export default {
-  title: 'vue-3-slider-component',
+  title: 'vue3-slider-component',
   parameters: {
     viewMode: 'docs',
     docs: {
@@ -22,8 +22,8 @@ Please note that specifications may differ from the original.
 ## 🎯 install
 
 \`\`\`bash
-$ yarn add vue-3-slider-component
-# npm install vue-3-slider-component --save
+$ yarn add @podzito/vue3-slider-component
+# npm install @podzito/vue3-slider-component --save
 \`\`\`
 
 ## 🚀 Usage
@@ -34,7 +34,7 @@ $ yarn add vue-3-slider-component
 </template>
 
 <script>
-import VueSlider from 'vue-3-slider-component'
+import VueSlider from 'vue3-slider-component'
 
 export default {
   components: {
@@ -83,4 +83,4 @@ export const Vue3SliderComponent: StoryFn = args => ({
     <VueSlider v-model="value5" direction="rtl" />
   `,
 })
-Vue3SliderComponent.storyName = 'vue-3-slider-component'
+Vue3SliderComponent.storyName = 'vue3-slider-component'
