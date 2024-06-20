@@ -4,17 +4,17 @@
 
 > 🎚 A highly customized slider component
 
-## Forked from [NightCatSame/vue-slider-component](https://github.com/NightCatSama/vue-slider-component)
+## Forked from [s-sasaki-0529/vue-slider-component](https://github.com/s-sasaki-0529/vue-slider-component)
 
-This repository is forked from [NightCatSame/vue-slider-component](https://github.com/NightCatSama/vue-slider-component) (v3.2.10) and rewritten to work with Vue 3.
+This repository is forked from [s-sasaki-0529/vue-slider-component](https://github.com/s-sasaki-0529/vue-slider-component) which in turn is a fork from [NightCatSame/vue-slider-component](https://github.com/NightCatSama/vue-slider-component) (v3.2.10) and rewritten to work with Vue 3.
 
-Please note that specifications may differ from the original.
+Please note that this fork is work in progress, so some links may still point to the work that _s-sasaki-0529_ has done.
 
 ## 🎯 install
 
 ```bash
-$ yarn add vue3-slider-component
-# npm install vue3-slider-component --save
+$ yarn add @podzito/vue3-slider-component
+# npm install @podzito/vue3-slider-component --save
 ```
 
 ## ✨ Features
@@ -31,10 +31,10 @@ $ yarn add vue3-slider-component
 
 ```vue
 <script setup lang="ts">
-import { ref } from "vue";
-import VueSlider from "vue3-slider-component";
+import { ref } from 'vue'
+import VueSlider from '@podzito/vue3-slider-component'
 
-const value = ref(0);
+const value = ref(0)
 </script>
 
 <template>
@@ -53,17 +53,17 @@ Also available in the Options API
 </template>
 
 <script>
-import VueSlider from 'vue3-slider-component'
+import VueSlider from '@podzito/vue3-slider-component'
 
 export default {
   components: {
-    VueSlider
+    VueSlider,
   },
-  data () {
+  data() {
     return {
-      value: 0
+      value: 0,
     }
-  }
+  },
 }
 </script>
 ```
